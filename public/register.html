@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <title>login/register</title>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/style.css"/>
+
+  <script src="../javascripts/register.client.js" defer="true"></script>
+</head>
+
+<body>
+  <h1>Register</h1>
+
+  <div id="sellerdata">
+    <div>
+      <label for="sellername">Name
+        <input type="text" placeholder="nom" value="" id="sellername"/>
+      </label>
+    </div>
+    <div>
+      <label for="sellerlogin">Login
+        <input type="text" placeholder="login" value="" id="sellerlogin"/>
+      </label>
+    </div>
+    <div>
+      <label>passWord
+        <input type="password" placeholder="mot de passe" value="" id="sellerpassword"/>
+      </label>
+    </div>
+  </div>
+  <div id="controls">
+    <button id="register">Register</button>
+  </div>
+  <div>
+    <a href="/access/login">vous avez déjà un compte ?</a>
+  </div>
+
+  <div id="problem"></div>
+
+</body>
+
+</html>
